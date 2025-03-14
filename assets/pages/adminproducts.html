@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartZone Store</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/admintable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header-container">
+
+        <label class="burger" for="burger-check">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <input type="checkbox" class="burger-check" id="burger-check">
+
+        <div class="header-left">
+
+            <a href="/index.html">
+                <img class="logo" src="/assets/images/logo empresa/logo.png" alt="Logo de la empresa">
+            </a>
+
+            <nav class="main-nav">
+
+                <ul class="main-nav-list">
+                    <li class="nav-item"><a href="/index.html">
+                            Principal
+                        </a></li>
+                    <li class="nav-item"><a href="/assets/pages/products.html">
+                            Productos
+                        </a></li>
+                    <li class="nav-item"><a href="/assets/pages/register.html">
+                            Registro
+                        </a></li>
+                    <li class="nav-item"><a href="/assets/pages/contact.html">
+                            Contacto
+                        </a></li>
+                    <li class="nav-item"><a href="/assets/pages/aboutus.html">
+                            Acerca de nosotros
+                        </a></li>
+                    <li class="nav-item"><a href="/assets/pages/adminproducts.html">
+                            Admin Products
+                        </a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="header-right">
+
+            <img class="user-logo" src="/assets/images/user logo.webp" alt="">
+            <i class="fa-solid fa-cart-shopping"></i>
+
+        </div>
+
+    </header>
+    
+    <h1>Administrador de Productos</h1>
+    <div class="table-container">
+        <table class="admin-table" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        Imagen del producto
+                    </th>
+                    <th class="product">
+                        Producto
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                    <th>
+                        Fecha de ingreso
+                    </th>
+                    <th class="price">
+                        Precio
+                    </th>
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="/assets/images/Samsung galaxy S24.PNG" alt="">
+                    </td>
+                    <td>
+                        <p>Samsung Galaxy S24</p>
+                    </td>
+                    <td>
+                        El Samsung Galaxy S24 es un smartphone de gama alta que forma parte de la serie Galaxy S de Samsung, conocida por su diseño premium, rendimiento potente y características innovadoras.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.000.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/Samsung Galaxy S24 FE.png" alt="">
+                    </td>
+                    <td>
+                        <p>Samsung Galaxy S24 FE</p>
+                    </td>
+                    <td>
+                        El Samsung Galaxy S24 FE (Fan Edition) es una versión más asequible de la serie Galaxy S24, diseñada para ofrecer muchas de las características premium de los modelos flagship a un precio más accesible.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 900.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/iPhone 16.png" alt="">
+                    </td>
+                    <td>
+                        <p>iPhone 16</p>
+                    </td>
+                    <td>
+                        El iPhone 16 representa la última generación de smartphones de Apple, tiene pantalla de 6,1", chip A18, cámara principal de 48 MP y nuevas funciones de inteligencia artificial. Incluye un botón de acción y mejora la batería.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.200.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/iPhone 16 plus.png" alt="">
+                    </td>
+                    <td>
+                        <p>iPhone 16 Plus</p>
+                    </td>
+                    <td>
+                        El iPhone 16 Plus es la versión de pantalla grande del iPhone 16, cuenta con pantalla de 6.7 pulgadas, chip A18 Bionic, cámara de 48 MP, gran duración de batería y carga rápida. Con iOS 18 y soporte 5G, es ideal para quienes buscan rendimiento y pantalla grande en un diseño elegante.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.400.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/iPhone 16 Pro.png" alt="">
+                    </td>
+                    <td>
+                        <p>iPhone 16 Pro</p>
+                    </td>
+                    <td>
+                        El iPhone 16 Pro  cuenta con una pantalla Super Retina XDR OLED de 6,3 pulgadas con tecnología ProMotion de hasta 120 Hz, chip A18 Pro, cámara principal de 48 MP con zoom periscópico 5x y diseño de titanio.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.650.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/iPhone SE.png" alt="">
+                    </td>
+                    <td>
+                        <p>iPhone SE</p>
+                    </td>
+                    <td>
+                        El iPhone SE es un iPhone compacto y asequible que combina el clásico diseño con táctil ID y hardware moderno, como el chip A15 Bionic. Con una pantalla de 4.7 pulgadas, cámara de 12 MP y soporte para 5G, ofrece rendimiento sólido y actualizaciones de iOS a largo plazo. Ideal para quienes buscan un iPhone pequeño y económico.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 800.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/Google_Pixel_9-removebg-preview.png" alt="">
+                    </td>
+                    <td>
+                        <p>Google Pixel 9</p>
+                    </td>
+                    <td>
+                        El Google Pixel 9 cuenta con una pantalla OLED de 6,24" y tasa de refresco de 120 Hz. Está impulsado por el chip Google Tensor G4, con 12 GB de RAM y opciones de almacenamiento de 128 GB o 256 GB. Su sistema de cámaras incluye un sensor principal de 50 MP y un ultra gran angular de 48 MP, junto con una cámara frontal de 10,5 MP. Además, utiliza inteligencia artificial Gemini AI para mejorar la experiencia.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.300.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/Google Pixel 8 Pro.png" alt="">
+                    </td>
+                    <td>
+                        <p>Google Pixel 8 Pro</p>
+                    </td>
+                    <td>
+                        El Google Pixel 8 Pro tiene una pantalla OLED LTPO de 6,7" con tasa de refresco de 120 Hz. Equipado con el chip Google Tensor G3 y 12 GB de RAM. Su sistema de cámaras incluye un sensor principal de 50 MP y un teleobjetivo de 48 MP con zoom 5x. La batería de 5.050 mAh admite carga rápida de 45 W y carga inalámbrica de 23 W. También incluye un termómetro integrado.
+                    </td>
+                    <td>
+                        01/02/2025
+                    </td>
+                    <td>
+                        $ 1.350.000
+                    </td>
+                    <td>
+                        <button title="Editar producto">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button class="danger" title="Eliminar producto">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="footer-container">
+
+        <div class="social-networks">
+            <div class="facebook">
+                <i class="fa-brands fa-facebook"> </i>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </div>
+            <div class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+            <div class="twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://x.com/" target="_blank">Twitter</a>
+            </div>
+            <div class="youtube">
+                <i class="fa-brands fa-youtube"></i>
+                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <img class="copyright-logo" src="/assets/images/logo empresa/logo.png" alt="">
+            <p>Copyright © 2025 SmartZone Store</p>
+        </div>
+        <div class="customer-services">
+            <p>Atención al cliente:</p>
+            <div class="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span> +54 1122334455</span>
+            </div>
+            <p>smartzoneconsultas@gmail.com</p>
+            <p>Lunes a viernes de 9 a 18hs</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
